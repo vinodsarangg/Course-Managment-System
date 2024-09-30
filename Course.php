@@ -115,7 +115,7 @@ if (isset($_SESSION['message1'])) {
     <div  id="CardDetails" class="CardDetails"> 
         
     <i class='fa fa-times' style="text-align:right; cursor:pointer" onclick='closeCard()'></i>
-        <p>Name<p id="CourseName"> </p></p>
+        <p id="CourseName"> </p>
         <p id="CourseDuration"></p>
         <p id="EnroledStudents"></p>
         <p id="Instructor"></p>
