@@ -1,0 +1,112 @@
+
+
+.h2 {
+    
+    color: white;
+    margin-top: 25px;
+    padding: 25px;
+    background-color: #1c1c1c1c;
+
+    text-align: center;
+    font-size: -webkit-xxx-large;
+    font-family: fantasy;
+    margin-bottom: 25px;
+
+   
+}
+.h3{
+    font-family: fantasy;
+    
+}
+    .form{
+
+
+        /* width:100%; */
+        display:flex;
+        justify-content:center;
+        margin-top:50px;
+        height:390px;
+        
+    }
+   .center{
+        width:20%;
+
+    /* background-color:green; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 25px;
+      background-color: #1c1c1c;
+      height:450px;
+
+
+   
+   }
+   
+   label {
+    display: inline-block;
+   
+    font-weight: 10px;
+    color:white;
+}   
+
+span {
+    text-align:center;
+    padding: 10px;
+    position: relative;
+    top:25px;
+    margin-left: 650px;
+
+}
+
+/* input{
+
+    width:25px;
+} */
+#button-center{
+    
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+footer{
+    
+    
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #1c1c1c1c;
+
+    text-align: center;
+    /* font-size: -webkit-xxx-large; */
+    font-family: fantasy;
+
+   
+}
+
+.CardDetails{
+    display: none;
+    padding: 25px;
+    height: 250px;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 6px;
+    border: 1px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 2;/* SHow card on top overplay*/
+    background-color: rgb(242, 236, 234);
+    transform: translate(-50%,-50%);
+}
+.overplay_background{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* Cover Overplay on top of the whole viewport*/
+    background-color:white;
+
+}
